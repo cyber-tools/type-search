@@ -1,7 +1,7 @@
 {
   "name": "@cyber-tools/type-search",
   "version": "1.0.0",
-  "description": "用于创建cyber系列工具的命令行工具",
+  "description": "用于在DefinitelyTyped上搜索类型的命令行工具",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,5 +29,9 @@
   },
   "bin": {
     "cyber-type": "index.js"
+  },
+  "repository": {
+    "type": "github.com",
+    "url": "https://github.com/cyber-tools/type-search.git"
   }
 }
